@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+.banner-img {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  /*height: 500px;*/
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.banner-txt {
+  color: white;
+  width: 700px;
+  margin: 50px auto;
+  line-height: 40px;
+}
+
+.banner-txt h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+.banner-txt h3 {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+}
+
+.body-text {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.body-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  color: #C8C6C7;
+}
+
+.body-text p {
+  font-family: 'Lora', serif;
+  margin: 32px 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.link {
+  text-decoration: none;
+  background-color: #E9F7DE;
+}
+
+.link:hover {
+  background-color: #C4F29F;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .body {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .body {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .body {
+    width: 300px;
+  }
+}
