@@ -6,7 +6,7 @@ body {
   background-image: url(https://source.unsplash.com/random/1000x500);
   /*height: 500px;*/
   background-size: cover;
-  padding: 120px 0;
+  padding: 140px 0;
 }
 
 .banner-txt {
@@ -46,15 +46,18 @@ body {
 
 .link {
   text-decoration: none;
-  background-color: #E9F7DE;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(255, 253, 240, 1));
+  /*background-color: #E9F7DE;*/
+
 }
 
 .link:hover {
   background-color: #C4F29F;
+  background-image: linear-gradient(to right, rgba(196, 242, 159, 1), red);
 }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+  /* For a screen < 960px, this CSS will be read
   .body {
     width: 700px;
   }
